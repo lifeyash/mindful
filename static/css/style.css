@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F8FF;
+    overflow: scroll;
+}
+
+
+/* HEADER */
+
+header .header-container .nav-div {
+    margin: auto;
+    max-width: 650px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-container .logo-div p {
+    margin: auto;
+    padding: 15px 10px;
+    max-width: 700px;
+
+    color: #2D2727;
+
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Cormorant', serif;
+
+}
+
+header .header-container .nav-div a {
+    margin: 5px;
+    padding: 10px;
+    max-width: 700px;
+
+    color: #2D2727;
+
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+}
+
+header .header-container .nav-div a:hover {
+    color: #413543;
+    font-style: oblique;
+}
+
+
+/* MAIN */
+
+main {
+    margin: auto;
+    max-width: 700px;
+    padding: 15px;
+
+    font-family: 'Noto Serif', serif;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main a:visited {
+    text-decoration: none;
+}
+
+main a:active {
+    text-decoration: none;
+}
+
+main .main-container .content .content-child {
+    margin: auto;
+    max-width: 700px;
+
+    padding: 20px;
+
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+
+    /* align-items: center; */
+    text-align: justify;
+    /* font-family: 'Noto Serif', serif; */
+}
+
+main .main-container .content .content-child .content-title {
+    padding: 10px;
+    font-size: 20;
+    /* font-family: 'Noto Serif', serif; */
+
+}
+
+main .main-container .content .content-child .content-para {
+    padding: 10px;
+    font-size: 12;
+    /* font-family: 'Noto Serif', serif; */
+}
+
+main .main-container .content .content-child .content-info span {
+    margin: 5px;
+    border-radius: 2px;
+    font-size: 11px;
+    padding: 5px;
+    color: #2D2727;
+    background-color: #ECF2FF;
+    font-size: 10px;
+    /* align-items: flex-end; */
+}
+
+/* main .main-container .content-child:first-child{
+    background-color: bisque;
+} */
+
+
+/* FOOTER */
+
+footer {
+    position: static;
+    bottom: 0;
+
+    height: 0%;
+    width: 100%;
+    margin: auto;
+
+    align-items: center;
+
+    font-family: 'Noto Serif', serif;
+}
+
+footer .footer-container .contact a {
+    padding: 15px;
+    color: #2D2727;
+    text-decoration: none;
+}
+
+footer .footer-container .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-container .copyrights {
+    font-size: 11px;
+
+    padding-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SINGLE PAGE */
+
+section#main {
+    width: 100%;
+    max-width: 800px;
+    /* Adjust maximum width if needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title Styling */
+
+h1#title {
+    font-size: 30px;
+    /* Adjust font size for title */
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    /* Center the title */
+}
+
+/* Content Styling */
+
+#content a{
+    text-decoration: none;
+    color: #fff
+}
+
+a:link {color: #2D2727}
+a:visited {color: #2D2727}
+a:hover {color: #2D2727}
+a:active {color: #2D2727}
+
+#content {
+    font-size: 16px;
+    /* Adjust font size for content */
+    line-height: 1.6;
+}
+
+/* Responsiveness */
+
+#content figure {
+    margin: 1em 0;
+}
+
+#content figcaption {
+    font-style: italic;
+    margin-top: 0.4em;
+}
+
+#content ul,
+ol {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 40px;
+    /* Adjust as needed */
+}
+
+#content ul {
+    list-style-type: disc;
+}
+
+#content ol {
+    list-style-type: decimal;
+}
+
+#content table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+th,
+td {
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+}
+
+#content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+#content p {
+    text-align: justify;
+    margin-top: 0.8em;
+    margin-bottom: 1.2em;
+}
+
+#content ul ul {
+    margin-left: 10px;
+    /* Indentation for nested unordered lists */
+}
+
+#content ol ol {
+    margin-left: 10px;
+    /* Indentation for nested ordered lists */
+}
+
+@media (max-width: 600px) {
+
+    /* Adjust layout for smaller screens here */
+    section#main {
+        padding: 10px;
+        /* Reduce padding on smaller screens */
+    }
+
+    h1#title {
+        font-size: 24px;
+        /* Reduce title font size on smaller screens */
+    }
+}
+
+#content blockquote {
+    margin: 20px 0;
+    /* Adjust spacing as needed */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border-left: 5px solid #ccc;
+    /* Adjust border style as desired */
+    font-style: italic;
+    /* Optional for emphasis */
+    font-size: 1em;
+    /* Adjust font size if needed */
+}
+
+#content pre {
+    overflow-x: scroll;
+    /* overflow-anchor: none; */
+    max-width: 600px;
+    background-color: #ECF9FF;
+    padding: 0.4em;
+    font-family: 'Fira Code', monospace;
+}
+
+#content img {
+    align-items: center;
+    max-width: 625px;
+}

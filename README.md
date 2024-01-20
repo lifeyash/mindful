@@ -1,2 +1,2 @@
 # mindful
-A simple minimal Hugo Theme
+A Minimal Mindful Hugo Personal Website Theme 
